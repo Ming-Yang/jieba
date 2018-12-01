@@ -6,6 +6,7 @@ import jieba
 import pickle
 from .._compat import *
 from .viterbi import viterbi
+from jieba import jieba
 
 PROB_START_P = "prob_start.p"
 PROB_TRANS_P = "prob_trans.p"
